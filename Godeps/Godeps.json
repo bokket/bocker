@@ -1,0 +1,6 @@
+{
+	"ImportPath": "bocker",
+	"GoVersion": "go1.16",
+	"GodepVersion": "v80",
+	"Deps": []
+}
