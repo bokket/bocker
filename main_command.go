@@ -1,4 +1,4 @@
-package bocker
+package main
 
 import (
 	"bocker/container"
@@ -24,6 +24,7 @@ var runCommand = cli.Command{
 				}
 				cmd := context.Args().Get(0)
 				tty := context.Bool("ti")
+				Run(tty,cmd)
 				return nil
 			},
 }
